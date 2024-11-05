@@ -1,0 +1,55 @@
+# CONFIGURACION BASICA DE GIT:
+
+    git config --global user.name "BryanPardo"
+    git config --global user.email "brayitanpardos2076@gmail.com"
+
+# INICIAR CONTROL DE VERSIONES:
+
+    git init
+
+# RAMAS:
+
+    El codigo va a seguir diferentes flujos y cada flujo(RAMA) debe tener un nombre.
+
+rama master es la rama principal
+
+# CAMBIAR NOMBRE RAMA PRINCIPAL:
+
+    git branch -m main
+
+
+# ESTADOS DE GIT:
+
+    git status
+
+# PREPARAR FICHERO PARA FOTOGRAFIA O GUARDAR FICHERO:
+
+    git add .\hellogit.py
+
+# TOMAR FOTOGRAFIADE FICHERO:
+
+    git commit
+    git commit -m "Este es mi primer commit"
+
+# VERIFICAR COMMIT O FOTOGRAFIA:
+
+    git log
+
+# VOLVER A VERSION ANTERIOR:
+
+    git checkout .\hellogit.py
+
+# PERSONALIZAR GIT LOG:
+
+    git log --graph
+    git log --graph --pretty=oneline
+    git log --graph --decorate --all --oneline
+
+# PONER ALIAS A COMANDO:
+
+    git config --global alias.tree "log --graph --decorate --all --oneline"
+
+# IGNORAR FICHEO:
+
+    touch .gitignore 
+    **/.FICHERO

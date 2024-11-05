@@ -1,0 +1,18 @@
+div {
+
+    background-color: lightblue;
+    width: 300px;
+    margin: auto;
+    font-family: "Roboto Slab";
+    text-align: center;
+    font-size: 35px;
+    margin-top: 32px;
+}
+
+div {
+
+    border: 10px solid red;
+    border-radius: 40px;
+
+}
+

@@ -1,0 +1,16 @@
+### CONCEPTOS GENERALES BASE DE DATOS ###
+
+Base de datos: Conjunto o recopilacion de informacion y datos de manera estructurada y organizada perteneciente a un determinado contexto.
+
+Dato: Un dato es algo medible observable y registrable sin embargo un dato carece de contexto por lo que un dato en si no significada nada hasta que este se procese.
+
+Informacion: La informacion en efecto es el resultado en el que un dato es procesado de manera reflexiba y analitica para que este pueda tener un significado util para el ser humano se trata de convertir ese dato en ideas entonces cuando estos datos se analizan y interpretan obtienen un significado.
+
+DBMS: Sistema de gestion de bases de datos basicamente permite a los desarrolladores gestionar su base de datos ya sea creandola actualizandola modificandolo etc ademas que tambien provee una interfaz visual para gestionarla.
+
+    RDBMS: Sistema de gestion de bases de datos relacionales.
+
+        es una forma de estructurar información en tablas, filas y columnas. Un RDB tiene la capacidad de establecer vínculos (o relaciones) entre información mediante la unión de tablas,
+
+    NoSQL DBMS: Sistema de gestion de bases de datos no relacionales.
+

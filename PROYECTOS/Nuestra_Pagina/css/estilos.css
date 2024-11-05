@@ -1,0 +1,644 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab";
+
+}
+
+body{
+
+
+    box-sizing: border-box;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(t);
+}
+
+
+
+.header {
+
+    background-color: #272525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.logo_imagen{
+
+
+    height: 60px;
+    margin-right: 20px;
+
+}
+
+.nombre_empresa{
+
+    color: #ffffff;
+
+}
+
+
+
+.contenedor_navegacion{
+
+    margin: 10px;
+
+}
+
+.search_bar{
+
+    padding: 8px;
+    border-radius: 5px;
+    background-color:#272525;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.search_bar::placeholder{
+
+    color: #ffffff;
+
+}
+
+.navegacion {
+
+    display: flex;
+    list-style: none;
+
+
+}
+
+.navegacion_opcion{
+
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 85px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    border-radius: 0px;
+
+
+}
+
+.cerrar_icono{
+
+
+    display: none;
+}
+
+ul li i{
+
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-top:5px ;
+    
+}
+
+.icono_busqueda {
+
+    display: none;
+}
+
+.boton_busqueda {
+
+    display: none;
+}
+
+.boton_abrir{
+
+
+    display: none;
+}
+
+
+.boton_cerrar{
+
+    display: none;
+}
+
+
+.menu_icono{
+
+    display: none;
+
+}
+
+.eslogan {
+
+    background-color: #362b6a ;
+    margin: 0px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 19px;
+
+}
+
+.presentacion_seccion {
+
+    display: flex;
+    align-content: space-between;
+    background-image: url("/PROYECTOS/Nuestra_Pagina/img/fondogris.png");
+    background-repeat: no-repeat;
+    background-size:1500px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+
+}
+
+.parrafo_1 {
+
+
+    width: 480px;
+    margin-top: 35px;
+    font-size:25px ;
+    font-weight: bold;  padding-bottom: 100p;
+
+}
+
+.titulo_empresa{
+
+    font-size: 60px;
+    width: 410px;
+    color: #362b6a;
+    font-weight: bold;
+
+}
+
+.imagen_erp {
+
+    margin-left: 130px;
+    width: 550px;
+    margin-top: 50px;
+    padding-bottom: 150px;
+
+
+
+
+}
+
+.titulo_parrafo {
+
+    margin-top: 100px;
+    margin-left: 80px;
+
+}
+
+.enlace_contacto{
+
+    background-color: #362b6a;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+
+.caja_contacto{
+
+    margin-top: 80px;
+    box-shadow: px 2px 2px #000;
+
+}
+
+
+.seccion_2 {
+
+    display: flex;
+    background:linear-gradient(#5c5b5b,#000);
+    background-size:1500px;
+    background-repeat: no-repeat;
+    padding-bottom: 110px;
+    border-top: 10px solid #362b6a;
+    border-bottom: 10px solid #362b6a
+
+}
+.seccion_2_contenido {
+
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.titulo_seccion_2 {
+
+    font-size: 60px;
+    width: 270px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    color: #ffffff;
+
+}
+
+.division{
+
+    border: #362b6a;
+    border-style: solid;
+    border-width: 2px;
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+}
+
+.parrafo_seccion_2 {
+
+
+    width: 410px;
+    font-size: 25px;
+    font-weight:normal;
+    margin-bottom: 90px;
+    color: #ffffff;
+
+}
+.enlace_solicitud{
+
+    background-color: #362b6a;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid #ffffff;
+
+}
+
+.contenedor_acordeon {
+
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 180px;
+    width: 590px;
+
+    
+}
+.acordeon{
+
+    background-color: #e9e8e8;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.acordeon label{
+
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    background: #e0e0e0;
+    color: #362b6a;
+    cursor: pointer;
+    margin-bottom: 2px;
+    border-radius: 20px;
+    transition: all 300ms ease;
+}
+.acordeon label:hover{
+
+
+    background: #c9c6c6;
+
+    
+}
+
+.parrafo_acordeon{
+
+    padding: 10px;
+
+
+}
+.acordeon .contenido_acordeon {
+
+
+    padding: 0px;
+    margin: 0px 20px;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+    max-height: 0;
+    overflow: hidden;
+
+  
+
+    transition: all 300ms ease;
+
+}
+
+.btn_acordeon:checked ~ .contenido_acordeon {
+
+
+    max-height: 600px;
+    padding: 15px 0px;
+
+}
+
+.btn_acordeon{
+
+    display: none;
+}
+
+
+span {
+
+    color: #ff0000;
+}
+
+
+.seccion_footer{
+
+    display: flex;
+    background-color: #ceced1;
+
+}
+
+/* .seccion_footer{
+
+}
+
+.footer {
+
+} */
+
+.logo_footer{
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.logo_imagen_footer{
+
+
+    height: 60px;
+    margin-left: 80px;
+
+}
+
+.datos_contacto{
+
+    margin-left: 80px;
+}
+
+.nombre_empresa_footer{
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+.datos{
+
+    margin-bottom: 5px;
+}
+
+.dato3{
+
+    display: flex;
+
+}
+@media (max-width:1280px) {
+
+    .navegacion_opcion{
+
+        margin-right: 0px;
+        margin-right: 40px;
+        
+    }
+
+    .imagen_erp{
+
+        opacity: 0;
+        visibility: 0;
+    }
+
+    .titulo_empresa{
+
+        font-size: 80px;
+    }
+
+    .parrafo_1{
+
+
+        font-size: 30px;
+
+        width: 800px;
+    }
+
+}
+
+@media (max-width:1044px){
+
+
+    .search_bar{
+
+        display: none;
+
+    }
+
+    .icono_busqueda{
+
+        display: block;
+    }
+
+
+
+}
+
+@media (max-width: 929px) {
+
+    .parrafo_1{
+
+
+        font-size: 30px;
+
+        width: 600px;
+    }
+
+}
+
+@media (max-width:875px) {
+
+    .nombre_empresa{
+
+        width: 100px;
+    }
+
+    .imagen_erp{
+
+
+        visibility: hidden;
+    }
+
+    .titulo_empresa{
+
+        font-size: 80px;
+    }
+
+    .parrafo_1{
+
+
+        font-size: 29px;
+
+        width: 600px;
+    }
+
+}
+
+
+
+@media (max-width:750px) {
+
+    .boton_abrir{
+
+        display: block;
+        position: relative;
+        top:30px ;
+        opacity: 0;
+
+    }
+
+
+    .menu_icono{
+
+        display: block;
+        border: none;
+        right: 30px;
+        align-content:center;
+        font-size: 30px;
+        padding: auto;
+        flex-direction: column;
+        transform: translateX(20px);
+
+    }
+
+    .boton_cerrar {
+
+        border: none;
+        display: block;
+        transform: translateY(4px);
+        font-size: 15px;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .cerrar_icono{
+
+        font-size: 20px;border: none;
+        text-align: end;
+        top: 10px;
+        transform: translateY(-60);
+        margin: 0px;
+        display: block;
+        
+        
+
+
+    }
+    nav{
+
+        position: absolute;
+        padding: auto;
+        right: 0;
+        margin: 0px;
+        visibility: hidden;
+        opacity: 0;
+        top: 1px
+
+    }
+
+    .navegacion {
+
+        background-color: #272525;
+        flex-direction: column;
+        padding: 30px;
+        
+        height: 420px ;
+        padding: 40px;
+        align-items:end;
+
+
+        
+    }
+
+    .navegacion_opcion{
+
+
+        margin-right: 0;
+        margin-bottom: 20px;
+
+    }
+
+    .visible {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+
+    .invisible {
+
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .logo{
+
+        margin-left: 40px;
+
+    }
+
+    .titulo_empresa{
+
+        font-size: 60px;
+    }
+
+    .parrafo_1{
+
+
+        font-size: 23px;
+
+        width: 400px;
+    }
+
+}
+
+@media (max-width:541px) {
+
+
+    .titulo_empresa{
+
+        font-size: 40px;
+    }
+
+    .parrafo_1{
+
+
+        font-size: 18px;
+
+        width: 360px;
+
+    }
+
+    .titulo_parrafo{
+
+        margin-left: 20px;
+    }
+}
+
+

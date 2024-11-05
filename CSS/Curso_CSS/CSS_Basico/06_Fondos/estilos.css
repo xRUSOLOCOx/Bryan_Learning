@@ -1,0 +1,21 @@
+body {
+
+    background-color: aqua;
+    margin: 0;
+
+}
+
+
+.box {
+
+    width: 100px;
+    height: 300px;
+    margin: 20px;
+    background-color: #0001;
+
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJVoPWS0HEIXmy8HmIlnwRc2sRMtfLWXPLA&s); 
+
+
+
+}

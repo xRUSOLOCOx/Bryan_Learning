@@ -1,0 +1,7 @@
+# Comandos simples de git:
+
+git
+
+git--version
+git--help
+

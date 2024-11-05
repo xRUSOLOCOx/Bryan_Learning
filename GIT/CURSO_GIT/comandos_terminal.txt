@@ -1,0 +1,11 @@
+# COMANDOS BASICOS DE TERMINAL:
+
+ls: mostrar todos los directorios.
+cd: seleccionar un directorio.
+cd.. devolverse
+pwd: ver ruta actual
+mkdir : crear carpeta
+
+
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Textarea</title>
+        <link rel="stylesheet" href="estilos.css">
+
+    </head>
+
+    <body>
+      
+        <form>
+
+            <div class="contenedor"></div>
+
+                <h1>Furmulario de Registro</h1>
+
+                <div class="contenedor_opciones">
+
+                    <fieldset>
+                        
+                        <legend>INFORMACION BASICA</legend>
+                        
+                        <div>
+
+                            <h2 class="nombre">Nombre completo:</h2>
+                            <input type="text" placeholder="Bryan Pardo">
+
+                        </div>
+
+                        <h2>Correo Electronico:</h2>
+
+                        <div class="caja_div">
+
+                            <input type="password" placeholder="bryan2076@gmail.com">
+
+                        </div>
+
+                        <div>
+                        
+                        <!--SELECT AND OPCION-->
+
+                            <h2>Identificacion:</h2>
+                            <select name="form_iput">
+
+                                <option value="user1">T.I</option>
+                                <option value="user2">C.C</option>
+                                <option value="user3">P.P.T</option>
+
+                            </select>
+
+                        </div>
+
+                    </fieldset>
+
+                    <!--Datalist AND OPTION-->
+
+                    <div>
+
+                        <H2>Referente</H2>
+
+                        <input name="referente" list="referente" class="hola">
+
+                        <datalist id ="referente" name ="type-of-user" class="hola">
+
+                            <option value=Empresa"></option>
+                            <option value="Whatsapp"></option>
+                            <option value=""></option>
+                            
+                        </datalist>
+
+                    </div>
+
+                    <!--TEXTAREA-->
+
+                    <h2>Mensaje:</h2>
+                    
+                    <div class="caja_div">
+
+                        <textarea placeholder="Deja tu Mensaje" class="textarea"></textarea>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </form>
+
+    </body>
+
+</html>

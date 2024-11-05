@@ -1,0 +1,68 @@
+* {
+    font-family: arial, Helvatica, sans-serif;
+    color: rgb(110, 105, 105);
+}
+
+
+}
+
+iframe {
+    padding: 20px;
+}
+
+h2{
+    color:rgb(156, 18, 18);
+    font-size: xx-large;
+}
+
+h3{
+    color:rgb(160, 13, 13);
+    font-size: xx-large;
+}
+h4{
+    color:rgb(160, 13, 13);
+    font-size: xx-large;
+}
+h5{
+    color:rgb(160, 13, 13);
+    font-size: xx-large;
+}
+dt{
+    color:rgb(160, 13, 13);
+    font-size: xx-large;
+}
+h6{
+    color:rgb(160, 13, 13);
+    font-size: xx-large;}
+    
+* {
+
+
+    background-color: rgb(240, 235, 235);
+}
+
+.resaltado{
+    color:rgb(80, 75, 75);
+    font-size: x-large;}
+
+    .resaltado2    {
+        color:rgb(102, 97, 97);
+        font-size: x-large;}
+        
+       li {
+            color:rgb(102, 97, 97);
+            font-size: x-large;}
+             
+           dd {
+                color:rgb(102, 97, 97);
+                font-size: x-large;}
+               tr {
+                    color:rgb(102, 97, 97);
+                    font-size: x-large;}
+                    {
+                  td      color:rgb(102, 97, 97);
+                        font-size: x-large;}
+                                
+                
+            
+        

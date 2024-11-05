@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font: 1em sans-serif;
+}
+
+.tarjetas_contenedor {
+
+    width: 500px;
+    margin: 50px auto;
+    
+}
+
+.tarjeta {
+
+    margin-bottom: 20px;
+    
+}
+
+.tarjeta_titulo {
+    cursor: pointer;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.tarjeta_contenido {
+    text-align: justify;
+    padding: 0 10px;
+    color: #000000;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+input[type="checkbox"]:checked + label + .tarjeta_contenido {
+    max-height: 200px; /* Altura máxima permitida para el contenido */
+    padding: 10px;
+}

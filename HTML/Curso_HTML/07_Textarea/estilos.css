@@ -1,0 +1,98 @@
+*{
+
+    font-family: "Roboto Slab";
+}
+
+
+body{
+
+
+    background-color: rgb(39, 39, 43);
+
+}
+
+
+form{
+
+    background-color: rgb(30, 29, 31);
+    margin: auto;
+    max-width: 500px;
+    box-sizing:border-box;
+    margin-top: 150px;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px white;
+    
+    
+
+}
+
+
+input,textarea,select,option{
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgb(30, 29, 31);
+    border:0.5px solid #746666;
+    padding: 10px;
+    color: #fff;
+    
+
+}
+
+h2{
+
+    color: #fff;
+    text-shadow: 0 0 1px #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h1{
+
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 1px #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.contenedor{
+    margin-top: px;
+}
+
+.nombre{
+
+    margin-top: 50px;
+}
+
+textarea{
+
+
+    min-height: 100px;
+    max-height: 150px;
+    
+}
+
+.hola {
+
+    background-color: transparent;
+}
+
+
+legend{
+
+    padding: 0 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+fieldset{ 
+
+    margin-top: 50px;
+    border:0.5px solid #746666;
+    border-radius: 5px;
+
+}

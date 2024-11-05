@@ -1,0 +1,43 @@
+div {
+
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #fff;
+    font-size: 6px;
+
+
+}
+
+h1 {
+
+    color: #fff;
+    font-family: "Arial";
+    margin-top: 0px;
+    font-size: 28px;
+    background-color: red;
+
+}
+
+
+p {
+
+    font-family: "Arial";
+    color: #aaa;
+    font-size: 20px;
+
+}
+
+body {
+
+    background-color: #555;
+
+}
+
+span {
+
+    font-family: "Arial";
+    color: #aaa;
+    font-size: 18px;
+
+}

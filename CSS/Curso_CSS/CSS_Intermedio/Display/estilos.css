@@ -1,0 +1,26 @@
+body{
+
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+
+.flexbox{
+
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:20px;
+
+}
+.flexbox-item{
+
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    
+
+}
