@@ -1,0 +1,13 @@
+### FRAMEWOKS y LIBRERIAS ###
+
+
+Que es:
+
+Libreria: Empaquetar funcionalidades Conjunto empaquetado de funcionalidades(clases, funciones, metodos) reutilizables que permiten solucionar un problema especifico en un proyecto ademas permite que el desarrollador la use como necesite.
+
+
+Frameworks: Marco de desarrollo que ofrece una estructura base(organizacion de archivos carpetas, librerias) y funcionalidades para desarrollar un proyecto completo. Te da el marco de como se debe trabajar y estructura un proyecto con determinado Framework.
+
+- Conjunto de herramientas que trabajan en un proyecto completo bajo ciertas reglas.
+
+- El Framework define como se debe trabajar un proyecto.
